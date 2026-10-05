@@ -1,0 +1,45 @@
+# Compiled class files
+target/
+
+# Log files
+*.log
+logs/
+
+# Package Files
+*.jar
+*.war
+*.ear
+
+# H2 database files (runtime data - not source code)
+data/
+*.mv.db
+*.trace.db
+
+# Uploaded files (runtime)
+uploads/
+
+# Maven wrapper (optional to include - keeping wrapper script but not binary)
+.mvn/wrapper/maven-wrapper.jar
+
+# IntelliJ IDEA
+.idea/
+*.iml
+*.iws
+out/
+
+# Eclipse
+.settings/
+.classpath
+.project
+bin/
+
+# VS Code
+.vscode/
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Environment / secrets
+.env
+application-mysql.properties
